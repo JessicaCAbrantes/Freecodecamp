@@ -92,6 +92,40 @@ Add an img element below the p element. At this point, no image will show up in 
 
 < img/ >
 
+<h3>Step 8</h3>
+HTML attributes are special words used inside the opening tag of an element to control 
+the element's behavior. The src attribute in an img element specifies the image's URL 
+(where the image is located).
+
+Here is an example of an img element with a src attribute pointing to the freeCodeCamp logo:
+
+< img src="https://cdn.freecodecamp.org/platform/universal/fcc_secondary.svg" >
+Inside the existing img element, add an src attribute with this URL: https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg: 
+
+< img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"/ >
+
+<h3>Step 9</h3>
+All img elements should have an alt attribute. The alt attribute's text is used for screen
+readers to improve accessibility and is displayed if the image fails to load. 
+or example, < img src="cat.jpg" alt="A cat" > has an alt attribute with the text A cat.
+
+Inside the img element, add an alt attribute with this text:
+
+A cute orange cat lying on its back
+
+< img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute 
+  orange cat lying on its back"/ >
+
+<h3>Step 10</h3>
+You can link to another page with the anchor (a) element. For example, < a href='https://freecodecamp.org'></a > 
+would link to freecodecamp.org.
+Add an anchor element after the paragraph that links to https://freecatphotoapp.com. 
+At this point, the link won’t show up in the preview.
+
+< p >See more cat photos in our gallery.< /p > 
+< a href='https://freecatphotoapp.com'>< /a >
+
+
 
 
   
